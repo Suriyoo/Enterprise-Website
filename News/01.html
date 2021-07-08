@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>印刷资讯--中国印告诉您</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" /><!--CSS RESET-->
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css"><!--演示页面样式，使用时可以不引用-->
+	<link rel="stylesheet" href="css/style.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+a:link {
+	text-decoration: none;
+	color: #69AED1;
+}
+a:visited {
+	text-decoration: none;
+	color: #999;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+</head>
+<body>
+  <nav class="menu-activea">
+		<h1>Menu</h1>
+		<ul>
+			<li><a href="01.html">印刷厂怎样高质量订单？</a></li>
+			<li><a href="02.html">杂志印刷如何选择纸张？</a></li>
+			<li><a href="03.html">印刷色序应该怎么安排？</a></li>
+			<li><a href="04.html">中国印员工日常</a></li>
+			<li><a href="05.html">中国印的印刷机介绍</a></li>
+			<li><a href="06.html">细谈包装设计步骤及案例分析</a></li>
+			<li><a href="07.html">详细讲解金、银油墨的印刷技巧</a></li>
+            <li><a href="08.html">塑料手提袋的印刷流程详解</a></li>
+            <li><a href="09.html">广告怎样设计吸引顾客？</a></li>
+            <li><a href="10.html">2019台历印刷样式</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<header class="htmleaf-header">
+				<h1>印刷厂怎样高质量订单？中国印告诉你<span>中国印 2019-02-13 17:59</span></h1>
+				<div class="htmleaf-links">
+					<a class="htmleaf-icon icon-htmleaf-home-outline" href="http://www.htmleaf.com/" title="jQuery之家" target="_blank"><span> 新闻中心</span></a>
+					<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="02.html" title="前进" target="_blank"><span> 进入下一则新闻</span></a>
+				</div>
+			</header>
+		<h2>&larr; Sidebar Menu Thingy</h2>
+			<br></br><br></br>
+			<p>在这个竞争激烈的市场环境下，上印刷厂要时刻打起精神，做好自己质量的同时，还要注意订单的质量。做印刷生产，这也是一个双向的选择，客户在选择我们的同时，我们也要选择客户。不能为了把产量做上去，而什么订单都接，有的订单是万万不能接的，那么哪几类是我们不能接的呢？</p>
+			<p>1.印刷品的数量多，订金却给的少，并且一开始没有什么要求，像这一类的订单，到后期往往会增加很多很多的要求，有可能就因为这一单，而把印刷厂给做死掉也是可能的。</p>
+			<p>　2.产品要求非常高，而价格却压得非常的低，这一类的订单往往到后来自己买单的时候比较多。产品质量高，那价格相对的肯定也是高的，不能为了多做一个生意，而让印刷厂的成本增加。</p>
+            <p>　3.没有固定的交货期，产品品质的要求也不明确，这样的订单不能接，客户的需求都不明确，该怎么去继续生产呢？做这样的单子你保证不了出来的产品能让客户满意，多数时候都是无止尽的补单，这样的损失对印刷厂来说是很严重的。</p>
+          <p>　4.要的非常非常急的印刷品，这样的订单一般可能都是客户在别的地方做的不好，印刷厂如果再接手印刷的话，很可能稍微有一点不好就要求降价或者退货了。</p>
+            <p>　5.中间经手的人太多，这样的订单一般要求高，价格也会高，到客户手上的时候很有可能价格和产品的质量不对等，还有可能中间人表述不清，没有达到客户的要求，导致操作不当，订单流失或者是其他情况。</p>
+            <p>不付定金的，这就有可能会出现赖账的情况，如果是一笔大单的话，印刷厂可能会亏的血本无归。也就只能倒闭关门了。</p>
+ 
+　<p>　  总之，印刷厂接单需谨慎，订单不是想接就能接的，这也是需要衡量一下风险的。</p>
+		</section>
+	</main>
+	
+	<script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+	<script type="text/javascript">
+		(function() {
+
+		  var nav = $('nav'),
+		    menu = $('nav h1'),
+		    main = $('main'),
+		  	open = false,
+		  	hover = false;
+
+		  menu.on('click', function() {
+				open = !open ? true : false;
+		    nav.toggleClass('menu-active');
+		    main.toggleClass('menu-active');
+		    nav.removeClass('menu-hover');
+		    main.removeClass('menu-hover');
+		    console.log(open);
+		  });
+		  menu.hover( 
+		    function() {
+		      if (!open) {
+		      	nav.addClass('menu-hover');
+		      	main.addClass('menu-hover');
+		      }
+		    }, function() {
+		      nav.removeClass('menu-hover');
+		      main.removeClass('menu-hover');
+		    }
+		  );
+
+		})();
+	</script>
+</body>
+</html>
