@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.name01,
+.name012{
+	width:180px;
+	height:20px;
+	border:none;
+	background-color:#CCC;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-style: normal;
+	background-image: none;
+	background-repeat: no-repeat;
+}
+.name02{
+	background-color:transparent;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-style: normal;
+	color: #FFBF80;
+}
+
+.titleone{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: bolder;
+	}
+	
+
+.buttonone{
+	width:90px;
+	height:40px;
+	font-family: "幼圆";
+	font-size: 22px;
+	font-weight: bolder;
+	color: #FFF;
+	background-image: url(../images/%E6%8C%89%E9%92%AE.jpg);
+	border-radius: 100px;
+	}
