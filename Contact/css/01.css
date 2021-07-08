@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+	
+#map {
+	width: 1000px;
+	height: 500px;
+	background-color:rgba(131,181,229,0.5);
+	box-shadow: 10px 10px 10px #666666;
+	border-radius:15px;
+	overflow: hidden;
+	margin:0;
+	font-family:"微软雅黑";
+	left: 200px;
+	top: 30px;
+	right: 250px;
+	bottom: 500px;
+}
+#message {
+	font-family: "微软雅黑";
+	bottom: 0px;
+	color: #666;
+}
+.font {
+	font-family:"幼圆";
+	text-align: center;
+	font-size: 24px;
+	top: 15px;
+}
